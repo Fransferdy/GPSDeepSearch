@@ -1,0 +1,27 @@
+﻿Build started 03/11/2013 16:19:52.
+     1>Project "D:\Dev\Projeto Ed\Novo Novo Last Pronto Final - testes3\ProjetoEd\ProjetoEd\ProjetoEd.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ProjetoEd.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ProjetoEd.cpp
+         ProjetoEd.cpp
+     1>ProjetoEd.cpp(117): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>ProjetoEd.cpp(181): warning C4552: '-' : operator has no effect; expected operator with side-effect
+     1>ProjetoEd.cpp(286): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>ProjetoEd.cpp(294): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>ProjetoEd.cpp(522): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>ProjetoEd.cpp(707): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dev\Projeto Ed\Novo Novo Last Pronto Final - testes3\ProjetoEd\Release\ProjetoEd.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Dev\Projeto Ed\Novo Novo Last Pronto Final - testes3\ProjetoEd\Release\ProjetoEd.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dev\Projeto Ed\Novo Novo Last Pronto Final - testes3\ProjetoEd\Release\ProjetoEd.lib" /MACHINE:X86 /SAFESEH Release\ProjetoEd.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         ProjetoEd.vcxproj -> D:\Dev\Projeto Ed\Novo Novo Last Pronto Final - testes3\ProjetoEd\Release\ProjetoEd.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\ProjetoEd.unsuccessfulbuild".
+         Touching "Release\ProjetoEd.lastbuildstate".
+     1>Done Building Project "D:\Dev\Projeto Ed\Novo Novo Last Pronto Final - testes3\ProjetoEd\ProjetoEd\ProjetoEd.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34
